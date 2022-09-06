@@ -13,7 +13,7 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 20px 0;
 }
 .name {
     margin: auto auto 0 auto;
@@ -52,6 +52,10 @@ img {
     height: 100%;
     margin-bottom: 10px;
 }
+.bottom-container {
+    background-color: #11999E;
+    margin: 0px;
+}
 .skill-row {
     width:50%;
     margin: 50px auto 50px auto ;
@@ -69,4 +73,31 @@ img {
 .skill-img-web {
     margin: 20px;
     float: left;
+}
+.btn 
+{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #f0f0f0;
+    font-size: 22px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover
+{
+    background: #c93224;
+    text-decoration: none;
+}
+.contact-me
+{
+    width: 40%;
+    margin: 10px auto 30px ;
+}
+a 
+{
+    margin : 10px 50px 10px
 }
